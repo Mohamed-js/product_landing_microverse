@@ -9,30 +9,67 @@
 
   <body>
     <!--Navigation Bar-->
-    <header id="header">
-      <img src="https://www.google.ht/url?sa=i&url=https%3A%2F%2Fwww.designmantic.com%2Flogos%2Fsearch%2Finsurance&psig=AOvVaw3060dkM12SfhW-Ldk6-x4Q&ust=1601583817280000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCOjhj-3akewCFQAAAAAdAAAAABAD" alt="logo" id="header-img" width="200" height="200">
-      <nav id="nav-bar" class="navbar navbar-default navbar-fixed-top bg-dark">
+    <div class="container all">
+    <header id="header" class="container">
+      <nav id="nav-bar" class="navbar navbar-dark bg-dark fixed-top ">
+        <div class="container">
         <a class="nav-link" href="#home" >Home</a>
         <a class="nav-link" href="#products" >Products</a>
         <a class="nav-link" href="#contact" >Contact</a>
+      </div>
       </nav>
+
+      <img src="https://www.google.ht/url?sa=i&url=https%3A%2F%2Fwww.designmantic.com%2Flogos%2Fsearch%2Finsurance&psig=AOvVaw3060dkM12SfhW-Ldk6-x4Q&ust=1601583817280000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCOjhj-3akewCFQAAAAAdAAAAABAD" alt="logo" id="header-img" width="200" height="200">
+      
     </header>
+    <br><br>
+
     <!--Main Content-->
-    <section id="home"></section>
-    <section id="products">
-      <video src="https://www.youtube.com/watch?v=DxGLn_Cu5l0" id="video"></video>
+    <div class="container flex-content">
+    <section id="home"> 
+      <h1>Your Car Home</h1>
+      <br>
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+      </p>
+
+      <br><br>
+      <h1>Fastest, Fansiest, The most stable Ever!</h1>
+      <br>
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+      </p>
+      <br><br>
+
+
+
     </section>
+    <section id="products">
+      <h1>BUGATTI Chiron</h1>
+      <br><br>
+      <iframe width="100%" height="700" src="https://www.youtube.com/embed/PkkV1vLHUvQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <video style="display: none;" width="100%" src="https://youtu.be/PkkV1vLHUvQ" type="video" id="video" >Error with video</video>
+    </section>
+    <br><br><br>
+    <hr>
     <section id="contact">
+
+      <h2> Please subscribes to our newsletter:</h2>
+      <br><br>
         <form  id="form" action="/https://www.freecodecamp.com/email-submit" >
-          <input type="email" id="email" name="email" placeholder="Enter Your E-mail" pattern="[^ @]*@[^ @]*" required>
-          <input type="submit" value="submit" id="submit" >
+          
+          <input class="btn-lg btn-block" type="email" id="email" name="email" placeholder="Enter Your E-mail" pattern="[^ @]*@[^ @]*" required>
+          <input class="btn btn-lg btn-block btn-success" type="submit" value="submit" id="submit" >
 
         </form>
 
 
     </section>
-    
+  </div>
 
+  
+  
+</div>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     <script  src="js/index.js"></script>
   </body>

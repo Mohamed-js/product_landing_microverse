@@ -1,0 +1,49 @@
+.nav-link{
+    color: whitesmoke;
+    font-weight: 600;
+
+}
+
+body{
+
+    background-color: rgb(129, 129, 129);
+
+}
+
+.all{
+    height: 2000px;
+    background-color: white;
+}
+
+.flex-content{
+
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+
+}
+
+section{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    width: 90%;
+    border-top: solid rgb(167, 167, 167) 1px;
+    padding-top: 30px;
+
+
+}
+video{
+    display: none;
+}
+
+#contact{
+
+    padding: 30px;
+    border-radius: 30px;
+    background-color: rgb(129, 129, 129);
+}
+
+h2{
+    color: whitesmoke;
+}
