@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <title>Fork Me! FCC: Test Suite Template</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
   </head>
 
@@ -10,18 +11,26 @@
     <!--Navigation Bar-->
     <header id="header">
       <img src="https://www.google.ht/url?sa=i&url=https%3A%2F%2Fwww.designmantic.com%2Flogos%2Fsearch%2Finsurance&psig=AOvVaw3060dkM12SfhW-Ldk6-x4Q&ust=1601583817280000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCOjhj-3akewCFQAAAAAdAAAAABAD" alt="logo" id="header-img" width="200" height="200">
-      <nav id="nav-bar">
-        <a href="#home" class="nav-link">Home</a>
-        <a href="#products" class="nav-link">Products</a>
-        <a href="contact" class="nav-link">Contact</a>
+      <nav id="nav-bar" class="navbar navbar-default navbar-fixed-top bg-dark">
+        <a class="nav-link" href="#home" >Home</a>
+        <a class="nav-link" href="#products" >Products</a>
+        <a class="nav-link" href="#contact" >Contact</a>
       </nav>
     </header>
     <!--Main Content-->
     <section id="home"></section>
-    <section id="products"></section>
-    <section id="contact"></section>
-   
-    <p>Hello world! We are developers !</p>
+    <section id="products">
+      <video src="https://www.youtube.com/watch?v=DxGLn_Cu5l0" id="video"></video>
+    </section>
+    <section id="contact">
+        <form  id="form" action="/https://www.freecodecamp.com/email-submit" >
+          <input type="email" id="email" name="email" placeholder="Enter Your E-mail" pattern="[^ @]*@[^ @]*" required>
+          <input type="submit" value="submit" id="submit" >
+
+        </form>
+
+
+    </section>
     
 
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
